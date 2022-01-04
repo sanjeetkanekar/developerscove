@@ -1194,6 +1194,10 @@ a.fg-light:hover, a.fg-light:focus {
 
 .navbar {
   min-height: 70px;
+  z-index: 999;
+  background: white;
+  border: none;
+  box-shadow: 0 2px 8px 0 rgb(50 50 50 / 4%);
 }
 
 .navbar-float {
@@ -2399,3 +2403,93 @@ a.fg-light:hover, a.fg-light:focus {
   background-color: #2F89FC;
 }
 /*# sourceMappingURL=theme.css.map */
+
+
+#pricing {
+	padding: 4% 0% 0% 2%;
+	text-align:center
+}
+#pricing ul.pricing {
+	list-style: none;
+	padding: 0;
+	margin: 70px 0 30px;
+	border: 1px solid #eee;
+	border-radius: 5px 5px 4px 4px;
+	padding: 15px;
+	text-align: center;
+}
+#pricing ul.pricing:hover {
+	box-shadow: 0 8px 8px rgba(0, 0, 0, .26);
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+#pricing ul.pricing li {
+	display: block;
+	padding: 10px;
+	color:#666;
+}
+#pricing ul.pricing li.plan-header {
+	background: #f8f8f8;
+	border-radius: 4px 4px 0 0;
+	margin: -15px -15px 10px;
+	padding: 15px 15px 30px;
+	border: 0;
+}
+#pricing ul.pricing li.plan-header .price-duration {
+	position: relative;
+	margin-top: -63px;
+	top: -10px;
+	display: inline-block;
+	width: 116px;
+	height: 116px;
+	background-image: -moz-linear-gradient(90deg, #2F89FC 0%, #2F89FC 100%);
+	background-image: -webkit-linear-gradient(90deg, #2F89FC 0%, #2F89FC 100%);
+	background-image: -ms-linear-gradient(90deg, #2F89FC 0%, #2F89FC 100%);
+	color: #fff;
+	border-radius: 100px;
+	border: 5px solid #f6f6f6;
+}
+#pricing ul.pricing li.plan-header .price-duration {
+	line-height: 1;
+}
+#pricing ul.pricing strong {
+	font-size:14px;
+}
+#pricing ul.pricing li.plan-header .price-duration > .price {
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 35px;
+}
+#pricing ul.pricing li.plan-header .price-duration > .duration {
+	margin-top: 5px;
+}
+#pricing ul.pricing li.plan-header .plan-name {
+	margin-top: 10px;
+	font-size: 21px;
+	color: #444;
+	font-weight: bold;
+	line-height: 1;
+	text-transform: uppercase;
+}
+#pricing ul.pricing.featured {
+	background: #222534;
+	color: #fff;
+	border: 0;
+}
+#pricing ul.pricing.featured li.plan-header .plan-name {
+	color: #fff;
+}
+
+a.btn-order {
+  height: 50px;
+  width: 50px;
+  color: #2F89FC;
+  border: 2px solid #2F89FC;
+  padding: 3% 5%;
+  font-size: 15px;
+  position: relative;
+  top: 5px;
+}
