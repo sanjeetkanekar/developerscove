@@ -189,3 +189,35 @@ $(document).ready(function () {
 		});
 	});
 });
+
+function sendmail(){
+    
+  var name = $('#name').val();
+  var email = $('#sender').val();
+  var subject = $('#subject').val();
+  var message = $('#message').val();
+
+  var Body='Name: '+name+'<br>Email: '+email+'<br>Subject: '+subject+'<br>Message: '+message;
+//   console.log(Body);
+
+  Email.send({
+    SecureToken:"1948bdf6-2a51-4bf5-b23a-11e6eebb9e98",
+    To: 'kanekarsanjeet@gmail.com',
+    From: email,
+    Subject: "New message on contact from "+name,
+    Body: Body
+  }).then(
+    message =>{
+      //console.log (message);
+      if(message=='OK'){
+      alert('Your mail has been send. Thank you for connecting.');
+      }
+      else{
+        console.error (message);
+        alert('There is error at sending message. ')
+        
+      }
+
+    }
+  );
+}
