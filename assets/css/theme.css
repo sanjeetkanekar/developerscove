@@ -2404,7 +2404,7 @@ a.fg-light:hover, a.fg-light:focus {
 }
 /*# sourceMappingURL=theme.css.map */
 
-
+/* Pricing section */
 #pricing {
 	padding: 4% 0% 0% 2%;
 	text-align:center
@@ -2492,4 +2492,22 @@ a.btn-order {
   font-size: 15px;
   position: relative;
   top: 5px;
+}
+
+/* Services section */
+
+#services .icon {
+  background: #e1eeff;
+  margin: 0 auto 15px auto;
+  padding-top: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+#services .icon i {
+  color: #2f89fc;
+  font-size: 20px;
+  margin: 8px;
 }
