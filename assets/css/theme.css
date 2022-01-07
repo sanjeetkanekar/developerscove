@@ -1745,16 +1745,17 @@ a.fg-light:hover, a.fg-light:focus {
 .subhead {
   display: block;
   text-transform: capitalize;
-  color: #AFB7C1;
+  color:#2d2f38;
   font-weight: 500;
   margin-bottom: 8px;
+  font-size: 30px;
 }
 
 .title-section {
   display: block;
   max-width: 450px;
-  color: #2d2f38;
-  font-weight: 600;
+  color: #AFB7C1;
+  /* font-weight: 600; */
   margin-bottom: 32px;
 }
 
@@ -2460,8 +2461,8 @@ a.fg-light:hover, a.fg-light:focus {
 }
 #pricing ul.pricing li.plan-header .price-duration > .price {
 	font-size: 24px;
-	font-weight: 700;
-	margin-top: 35px;
+  font-weight: 500;
+  margin: 40px 0;
 }
 #pricing ul.pricing li.plan-header .price-duration > .duration {
 	margin-top: 5px;
