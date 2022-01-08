@@ -1867,7 +1867,8 @@ a.fg-light:hover, a.fg-light:focus {
 }
 
 .card-testimonial:hover {
-  background-color: #fff;
+  background-color: #2F89FC;
+  color:#fff ;
 }
 
 .card-testimonial .content {
@@ -1911,7 +1912,6 @@ a.fg-light:hover, a.fg-light:focus {
 
 .card-testimonial .author-info {
   font-size: 11px;
-  color: #a1aab6;
 }
 
 .card-blog {
