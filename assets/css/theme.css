@@ -2499,16 +2499,46 @@ a.btn-order {
 
 #services .icon {
   background: #e1eeff;
-  margin: 0 auto 15px auto;
-  padding-top: 12px;
-  display: inline-block;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
+    margin: 0 auto 15px auto;
+    padding-top: 13px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.service-icon-div {
+  margin: 16px;
 }
 
 #services .icon i {
   color: #2f89fc;
-  font-size: 20px;
+  font-size: 30px;
   margin: 8px;
+}
+
+#services .service-block:hover .icon{
+  background:#2F89FC;
+	transform:rotateY(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-webkittransform:rotate(360deg);
+	transition:all 0.5s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+}
+#services .service-block:hover i{
+    color:white;
+}
+
+#services .service-block:hover {
+  transform: translate(0, -3px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -ms-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }

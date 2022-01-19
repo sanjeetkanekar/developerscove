@@ -148,7 +148,6 @@ $("document").ready(function() {
   });
 });
 
-
 var $grid = $('.grid');
 $grid.isotope({
   // options
@@ -198,30 +197,32 @@ function sendmail(){
     
   var name = $('#name').val();
   var email = $('#sender').val();
-  var subject = $('#subject').val();
+  var service = $('#service').val();
+  var contact = $('#contact').val();
+  var country = $('#country').val();
+  var state = $('#state').val();
+  var city = $('#city').val();
   var message = $('#message').val();
 
-  var Body='Name: '+name+'<br>Email: '+email+'<br>Subject: '+subject+'<br>Message: '+message;
-//   console.log(Body);
+  var Body='Name: '+name+'<br>Email: '+email+'<br>Service Intrested In: '+service+'<br>Phone: '+contact+'<br>Country: '+country+'<br>state: '+state+'<br>City: '+city+'<br>Message: '+message;
+  console.log(Body);
 
   Email.send({
-    SecureToken:"1948bdf6-2a51-4bf5-b23a-11e6eebb9e98",
+    SecureToken:"07ca885f-8c16-49bd-a7af-e524a23f6097 ",
     To: 'kanekarsanjeet@gmail.com',
-    From: email,
+    From: 'kanekarsanjeet@gmail.com',
     Subject: "New message on contact from "+name,
     Body: Body
   }).then(
     message =>{
-      //console.log (message);
+      console.log (message);
       if(message=='OK'){
       alert('Your mail has been send. Thank you for connecting.');
       }
       else{
         console.error (message);
         alert('There is error at sending message. ')
-        
       }
-
     }
   );
 }
