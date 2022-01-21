@@ -148,6 +148,14 @@ $("document").ready(function() {
   });
 });
 
+$(".clients-carousel").owlCarousel({
+  loop:true,
+  autoplay:true,
+  autoplayTimeout:1000,
+  autoplayHoverPause:true,
+  responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 5 }}
+});
+
 var $grid = $('.grid');
 $grid.isotope({
   // options
