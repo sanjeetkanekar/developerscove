@@ -1200,6 +1200,10 @@ a.fg-light:hover, a.fg-light:focus {
   box-shadow: 0 2px 8px 0 rgb(50 50 50 / 4%);
 }
 
+.navbar img {
+  width: 70%;
+}
+
 .navbar-float {
   position: absolute;
   top: 20px;
@@ -2607,4 +2611,17 @@ a.fg-light:hover, a.fg-light:focus {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
+}
+
+
+@media (min-width: 768px) {
+  .navbar img {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 350px) {
+  .navbar-brand {
+    max-width: 70%;
+  }
 }
