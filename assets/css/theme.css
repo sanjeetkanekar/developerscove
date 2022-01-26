@@ -2555,7 +2555,7 @@ a.fg-light:hover, a.fg-light:focus {
   text-align: center;
   text-decoration: none;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   color: #e4e4e4;
   font-weight: 300;
   padding: 1.625em;
@@ -2576,7 +2576,7 @@ a.fg-light:hover, a.fg-light:focus {
   -webkit-align-items: center;
   align-items: center;
   z-index: 5;
-  opacity: 0;
+  bottom: 0;
 }
 .industry-item figure .featured-info .info-wrapper {
   width: 100%;
@@ -2634,7 +2634,13 @@ a.fg-light:hover, a.fg-light:focus {
 }
 
 #technology .title-section{
-  color: #fff;
+  color: #205FB0;
+}
+
+#technology .subhead{
+  color: #17447E;
+  font-size: 35px;
+  
 }
 
 #technology .technology_text{
