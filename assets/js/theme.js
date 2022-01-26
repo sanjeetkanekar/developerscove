@@ -108,7 +108,21 @@ $("document").ready(function() {
     navText: ["<span class='mai-chevron-back'></span>", "<span class='mai-chevron-forward'></span>"],
     loop: true,
     autoplay: true,
-    autoplayTimeout: 5000,
+    autoplayTimeout: 6000,
+    responsive : {
+      // breakpoint from 0 up
+      0 : {
+        dots:false
+      },
+      // breakpoint from 480 up
+      480 : {
+        dots:false
+      },
+      // breakpoint from 768 up
+      768 : {
+        dots:true
+      }
+  }
   });
 
   $(".team-carousel").owlCarousel({
