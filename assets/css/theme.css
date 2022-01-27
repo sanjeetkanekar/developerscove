@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -2634,19 +2634,21 @@ a.fg-light:hover, a.fg-light:focus {
 }
 
 #technology .title-section{
-  color: #205FB0;
+  color: #fff;
 }
 
 #technology .subhead{
-  color: #17447E;
   font-size: 35px;
+  color: white;
+  font-weight: 600;
   
 }
 
 #technology .technology_text{
-  font-family: 'Secular One', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 30px;
   color: #ffffff;
+  font-weight: 900;
 }
 
 #technology .technology_text:hover{
@@ -2752,3 +2754,22 @@ a.fg-light:hover, a.fg-light:focus {
  }
 }
 
+#counter {
+  background-color: #0974fb;
+}
+
+#counter .counters span{
+  font-family: "Montserrat", sans-serif;
+font-weight: bold;
+font-size: 48px;
+display: block;
+color: #ffffff;
+} 
+
+#counter .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}

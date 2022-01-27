@@ -47,6 +47,8 @@ $(function() {
   
 });
 
+
+
 $('document').ready(function() {
   var nav_height = 70;
   
@@ -160,6 +162,11 @@ $("document").ready(function() {
       }
     }
   });
+
+  $('[data-toggle="counter-up"]').counterUp({
+    delay: 10,
+    time: 2000
+  });
 });
 
 $(".clients-carousel").owlCarousel({
@@ -248,3 +255,6 @@ function sendmail(){
     }
   );
 }
+
+
+
