@@ -1788,6 +1788,23 @@ a.fg-light:hover, a.fg-light:focus {
   width: 100%;
 }
 
+#about .about-btn{
+  color: #007bff;
+  border: 2px solid #007bff;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 10px 28px;
+  border-radius: 0.25rem;
+  display: inline-block;
+}
+
+#about .about-btn:hover{
+  color: #ffffff;
+  background-color: #007bff ;
+  border: 2px solid #007bff;
+  transition: 0.3s ease-in;
+}
+
 .team-carousel {
   display: block;
   width: 100%;
@@ -1925,8 +1942,7 @@ a.fg-light:hover, a.fg-light:focus {
   position: relative;
   display: block;
   margin: 0 auto;
-  padding: 32px 20px 70px 20px;
-  max-width: 260px;
+  padding: 32px 20px 34px 20px;
   min-height: 290px;
   border-radius: 6px;
   -webkit-box-shadow: 0 2px 6px rgba(51, 55, 75, 0.16);
@@ -1937,20 +1953,21 @@ a.fg-light:hover, a.fg-light:focus {
   margin-bottom: 16px;
 }
 
-.card-blog .avatar {
-  position: relative;
-  display: inline-block;
-  margin-right: 6px;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: #d0d4e4;
-  overflow: hidden;
+.vacancy .card-blog .vacancy_btn{
+    color: #ffffff;
+    background: #007bff;
+    border: 2px solid #007bff;
+    padding: 3% 2%;
+    font-size: 15px;
+    text-decoration: none;
 }
 
-.card-blog .avatar img {
-  width: 100%;
-  height: 100%;
+.vacancy .card-blog .btn_div {
+  margin-top: 22px;
+}
+
+.vacancy .header-text p{
+  margin-bottom: 90px;
 }
 
 .card-blog .entry-footer {
@@ -1966,11 +1983,16 @@ a.fg-light:hover, a.fg-light:focus {
 .card-blog .post-date {
   font-size: 13px;
   color: #b2b6c5;
+  margin-bottom: 20px;
 }
 
 .card-blog .post-title {
   margin-bottom: 8px;
-  font-size: 18px;
+  font-size: 20px;
+}
+
+.vacancy .card-blog .experience{
+  margin-bottom: 10px;
 }
 
 .card-blog .post-title a {
@@ -1987,20 +2009,6 @@ a.fg-light:hover, a.fg-light:focus {
   position: absolute;
   bottom: 20px;
   left: 20px;
-}
-
-.card-blog-row *:first-child .card-blog {
-  background-color: #2F89FC;
-}
-
-.card-blog-row *:first-child .card-blog .post-author,
-.card-blog-row *:first-child .card-blog .post-title a,
-.card-blog-row *:first-child .card-blog .footer a {
-  color: #fff;
-}
-
-.card-blog-row *:first-child .card-blog .post-date {
-  color: rgba(255, 255, 255, 0.6);
 }
 
 .blog-single-wrap {
@@ -2312,6 +2320,10 @@ a.fg-light:hover, a.fg-light:focus {
   color: #fff;
 }
 
+.page-footer .footer-menu a {
+  text-decoration: none;
+}
+
 .page-footer hr {
   border-color: #464B61;
 }
@@ -2419,6 +2431,23 @@ a.fg-light:hover, a.fg-light:focus {
 #industries {
 	padding: 4% 0% 0% 2%;
 	text-align:center;
+}
+
+#industries .industries-btn{
+  margin-left: 9px;
+  color: #007bff;
+  border: 2px solid #007bff;
+  padding: 8px;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 0.25rem;
+}
+
+#industries .industries-btn:hover{
+  color: #ffffff;
+  background-color: #007bff ;
+  border: 2px solid #007bff;
+  transition: 0.3s ease-in;
 }
 
 /* Services section */
@@ -2857,4 +2886,54 @@ color: #ffffff;
   font: 12px/18px 'opensans-light',sans-serif;
   color: #c6c7c7;
   margin-bottom: 0;
+}
+
+#careers
+{
+  background-color: #0974fb;
+}
+#careers a.btn-down {
+  height: 50px;
+    width: 50px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5% 10%;
+    position: relative;
+    top: 35px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#careers a.btn-down:hover {
+background: #fff;
+    color:#0974fb;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    text-decoration: none;
+}
+
+#careers h3{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+#careers p{
+  color: #ffffff;
+  font-size: 20px;
+}
+
+#careers .page-section {
+  padding: 40px 0;
+}
+
+.page-header {
+  background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../img/careers.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.page-header{
+  color: #ffffff;
 }
