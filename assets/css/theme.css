@@ -2437,10 +2437,20 @@ a.fg-light:hover, a.fg-light:focus {
   margin-left: 9px;
   color: #007bff;
   border: 2px solid #007bff;
-  padding: 8px;
+  padding: 10px 28px;
   font-size: 15px;
   text-decoration: none;
   border-radius: 0.25rem;
+}
+
+#industries .btm_message_parent {
+  margin: 1rem;
+  text-align: center;
+}
+#industries .btm_message_child {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 20px;
 }
 
 #industries .industries-btn:hover{
@@ -2892,16 +2902,16 @@ color: #ffffff;
 {
   background-color: #0974fb;
 }
-#careers a.btn-down {
-  height: 50px;
-    width: 50px;
-    color: #fff;
-    border: 2px solid #fff;
-    padding: 5% 10%;
-    position: relative;
-    top: 35px;
-    font-size: 17px;
-    text-decoration: none;
+#careers .btn-down {
+  margin-top: 15px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 10px 28px;
+  border-radius: 0.25rem;
+  display: inline-block;
+  text-decoration: none;
 }
 
 #careers a.btn-down:hover {
@@ -2929,11 +2939,18 @@ background: #fff;
   padding: 40px 0;
 }
 
-.page-header {
+.page-header-careers {
   background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../img/careers.jpg) center center no-repeat;
   background-size: cover;
 }
 
-.page-header{
+.page-header-about {
+  background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../img/about_us.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.page-header-careers,.page-header-about{
   color: #ffffff;
 }
+
+
