@@ -1,3 +1,5 @@
+
+
 /* Sticky Navigation */
 $(function() {
   
@@ -65,6 +67,9 @@ $('document').ready(function() {
 });
 
 $('document').ready(function() {
+
+  $("#status").fadeOut(); // will first fade out the loading animation
+  $("#preloader").delay(350).fadeOut("slow");
   // Back to top
   var backTop = $(".back-to-top");
   
@@ -255,6 +260,7 @@ function sendmail(){
     }
   );
 }
+
 
 
 
