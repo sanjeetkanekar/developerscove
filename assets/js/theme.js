@@ -229,7 +229,7 @@ function sendmail() {
         message => {
             console.log(message);
             if (message == 'OK') {
-                alert('Your mail has been send. Thank you for connecting.');
+                alert('Your mail has been send. Thank you for connecting. We will get back to you soon!');
             } else {
                 console.error(message);
                 alert('There is error at sending message. ')

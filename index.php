@@ -1,3 +1,6 @@
+<?php
+include ('email.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -59,10 +62,10 @@
                         </div>
                         <div class="col-md-4 text-right d-none d-md-block">
                             <div class="social-mini-button">
-                                <a href="#"><span class="mai-logo-facebook-f"></span></a>
+                                <a href="https://www.facebook.com/developerscove" target="_blank"><span class="mai-logo-facebook-f"></span></a>
                                 <!-- <a href="#"><span class="mai-logo-twitter"></span></a>
                                     <a href="#"><span class="mai-logo-youtube"></span></a> -->
-                                <a href="#"><span class="mai-logo-linkedin"></span></a>
+                                <a href="https://www.linkedin.com/in/developerscove/" target="_blank"><span class="mai-logo-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
@@ -72,7 +75,7 @@
             <nav id="sticker" class="navbar navbar-default navbar-expand-lg navbar-static-top navbar-light">
                 <div class="container">
                     <div class="container-fluid">
-                        <a href="index.html" class="navbar-brand">
+                        <a href="index.php" class="navbar-brand">
                         <img src="./assets/img/headericon.svg" alt="">
                         </a>
                         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,7 +84,7 @@
                         <div class="navbar-collapse collapse" id="navbarContent">
                             <ul class="navbar-nav ml-auto pt-3 pt-lg-0">
                                 <li class="nav-item active">
-                                    <a href="index.html" class="nav-link">Home</a>
+                                    <a href="index.php" class="nav-link">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#about" class="smoothScroll nav-link">About</a>
@@ -121,7 +124,7 @@
                             <img src="./assets/img/banner_img_1.jpg" alt="">
                             <div class="img-caption">
                                 <h1 class="mb-4">We Realize Your Ideas</h1>
-                                <a href="#about" class="btn btn-primary">Get Started</a>
+                                <a href="#about" class="btn btn-primary smoothScroll">Get Started</a>
                             </div>
                         </div>
                         <div class="hero-carousel-item">
@@ -129,7 +132,7 @@
                             <div class="img-caption">
                                 <div class="subhead">Innovate, Connect, Inspire</div>
                                 <h1 class="mb-4 subhead_bottom">Connecting Business Needs With IT</h1>
-                                <a href="#services" class="btn btn-primary">Services</a>
+                                <a href="#services" class="btn btn-primary smoothScroll">Services</a>
                             </div>
                         </div>
                         <div class="hero-carousel-item">
@@ -137,7 +140,7 @@
                             <div class="img-caption">
                                 <div class="subhead">Powering You For Tomorrow</div>
                                 <h1 class="mb-4 subhead_bottom">Bringing Ideas Into Reality</h1>
-                                <a href="#services" class="btn btn-primary">Industries</a>
+                                <a href="#industries" class="btn btn-primary smoothScroll">Industries</a>
                             </div>
                         </div>
                     </div>
@@ -312,7 +315,7 @@
                             <h2 class="subhead">Our Technology Stack</h2>
                             <div class="title-section">We believe in making technology work! </div>
                         </div>
-                        <div class="row row-cols-md-3 row-cols-lg-5 justify-content-center text-center">
+                        <div class="row row-cols-md-3 row-cols-lg-5 justify-content-center text-center wow zoomIn" data-wow-duration="400ms" data-wow-delay="600ms">
                             <div class="col-sm-12 col-md-3 col-lg-2 py-3 px-5 technology_text text_php">PHP</div>
                             <div class="col-sm-12 col-md-3 col-lg-2 py-3 px-5 technology_text text_html">HTML</div>
                             <div class="col-sm-12 col-md-3 col-lg-2 py-3 px-5 technology_text text_css">CSS</div>
@@ -442,7 +445,7 @@
                         <div class="row mt-3">
                             <div class="col-lg-4 col-md-6 col-sm-12 py-3 wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
                                 <div class="products">
-                                    <a href="./assets/img/products/sparsh.png" data-fancybox="products">
+                                    <a href="./assets/productspdf/Sparsh.pdf" data-fancybox="products">
                                         <img src="./assets/img/products/sparsh.png" alt="">
                                         <div class="overlay">
                                             <div class="products-item-meta">
@@ -456,7 +459,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-12 py-3 wow zoomIn" data-wow-duration="400ms" data-wow-delay="400ms">
                                 <div class="products">
-                                    <a href="./assets/img/products/Hotelier.png" data-fancybox="products">
+                                    <a href="./assets/productspdf/hotelier.pdf" data-fancybox="products">
                                         <img src="./assets/img/products/Hotelier.png" alt="">
                                         <div class="overlay">
                                             <div class="products-item-meta">
@@ -470,7 +473,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-12 py-3 wow zoomIn" data-wow-duration="400ms" data-wow-delay="600ms">
                                 <div class="products">
-                                    <a href="./assets/img/products/jatra.png" data-fancybox="products">
+                                    <a href="./assets/productspdf/jatra.pdf" data-fancybox="products">
                                         <img src="./assets/img/products/jatra.png" alt="">
                                         <div class="overlay">
                                             <div class="products-item-meta">
@@ -484,7 +487,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-12 py-3 wow zoomIn" data-wow-duration="400ms" data-wow-delay="800ms">
                                 <div class="products">
-                                    <a href="./assets/img/products/easysoft.png" data-fancybox="products">
+                                    <a href="./assets/productspdf/ezysoft.pdf" data-fancybox="products">
                                         <img src="./assets/img/products/easysoft.png" alt="">
                                         <div class="overlay">
                                             <div class="products-item-meta">
@@ -512,7 +515,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-12 py-3 wow zoomIn" data-wow-duration="400ms" data-wow-delay="1200ms">
                                 <div class="products">
-                                    <a href="./assets/img/products/dcinv.jpg" data-fancybox="products">
+                                    <a href="./assets/img/products/dcinv.png" data-fancybox="products">
                                         <img src="./assets/img/products/dcinv.png" alt="">
                                         <div class="overlay">
                                             <div class="products-item-meta">
@@ -554,7 +557,7 @@
             <section id="careers">
                 <div class="page-section">
                     <div class="container">
-                        <div class="row">
+                        <div class="row wow zoomIn" data-wow-duration="400ms" data-wow-delay="400ms">
                             <div class="col-lg-10 col-md-9 col-sm-12 col-xs-12">
                                 <h3>Searching for a right career path?</h3>
                                 <p>Be a part of our cove today!</p>
@@ -733,15 +736,15 @@
                         </div>
                         <div class="row justify-content-center mt-5">
                             <div class="col-lg-8">
-                                <form action="javascript:sendmail()" class="form-contact">
+                                <form action="" method="POST" class="form-contact">
                                     <div class="row">
                                         <div class="col-sm-6 py-2">
                                             <label for="name" class="fg-grey">Name</label>
-                                            <input type="text" class="form-control" id="name" placeholder="Enter name..">
+                                            <input type="text" class="form-control" name="name" id="name" placeholder="Enter name..">
                                         </div>
                                         <div class="col-sm-6 py-2">
                                             <label for="email" class="fg-grey">Email</label>
-                                            <input type="text" class="form-control" id="sender" placeholder="Email address..">
+                                            <input type="text" class="form-control" name="email" id="sender" placeholder="Email address..">
                                         </div>
                                         <div class="col-sm-6 py-2">
                                             <label for="service" class="fg-grey">Service Intrested In?</label>
@@ -763,7 +766,7 @@
                                         </div>
                                         <div class="col-sm-6 py-2">
                                             <label for="contact" class="fg-grey">Phone</label>
-                                            <input type="text" class="form-control" id="contact" placeholder="Phone..">
+                                            <input type="text" class="form-control" name="phone" id="contact" placeholder="Phone..">
                                         </div>
                                         <div class="col-sm-4 py-2">
                                             <label for="country" class="fg-grey">Country</label>
@@ -779,10 +782,11 @@
                                         </div>
                                         <div class="col-12 py-2">
                                             <label for="message" class="fg-grey">Message</label>
-                                            <textarea id="message" rows="8" class="form-control" placeholder="Enter message.."></textarea>
+                                            <textarea id="message" rows="8" name="message" class="form-control" placeholder="Enter message.."></textarea>
                                         </div>
+                                        <input type="hidden" name="form_submitted" value="1" />
                                         <div class="col-12 mt-3">
-                                            <button type="submit" class="btn btn-primary px-5">Submit</button>
+                                            <button type="submit" value="submit" class="btn btn-primary px-5">Submit</button>
                                         </div>
                                     </div>
                                 </form>
@@ -820,8 +824,12 @@
                 </div>
                 <hr>
                 <div class="row mt-4">
-                    <p class="tech-text-center">Technologies</p>
-                    <p><a>HTML</a> | <a>CSS</a> | <a>JavaScript</a> | <a>JQuery</a> | <a>Angular JS</a> | <a>Node JS</a> | <a>Express JS</a> | <a>React JS</a> | <a>ios</a> | <a>PHP</a> | <a>Android</a> | <a>Python</a> | <a>Mongo DB</a> | <a>VB .NET</a> | <a>Wordpress</a> | <a>Magento</a></p>
+                    <div class="col-md-12 col-lg-12 col-sm-12 text-center">
+                        <p class="tech-text-center">Technologies</p>
+                        <p>
+                            <a>HTML</a> | <a>CSS</a> | <a>JavaScript</a> | <a>JQuery</a> | <a>Angular JS</a> | <a>Node JS</a> | <a>Express JS</a> | <a>React JS</a> | <a>ios</a> | <a>PHP</a> | <a>Android</a> | <a>Python</a> | <a>Mongo DB</a> | <a>VB .NET</a> | <a>Wordpress</a> | <a>Magento</a>
+                        </p>
+                    </div>
                 </div>
                 <hr>
                 <div class="row mt-4">
@@ -830,10 +838,10 @@
                     </div>
                     <div class="col-md-6 text-right">
                         <div class="sosmed-button">
-                            <a href="#"><span class="mai-logo-facebook-f"></span></a>
+                            <a href="https://www.facebook.com/developerscove" target="_blank"><span class="mai-logo-facebook-f"></span></a>
                             <!-- <a href="#"><span class="mai-logo-twitter"></span></a>
                                 <a href="#"><span class="mai-logo-youtube"></span></a> -->
-                            <a href="#"><span class="mai-logo-linkedin"></span></a>
+                            <a href="https://www.linkedin.com/in/developerscove/" target="_blank"><span class="mai-logo-linkedin"></span></a>
                         </div>
                     </div>
                 </div>
@@ -850,7 +858,6 @@
         <script src="./assets/vendor/owl-carousel/js/owl.carousel.min.js"></script>
         <script src="./assets/vendor/wow/wow.min.js"></script>
         <script src="./assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
-        <script src="./assets/vendor/isotope/isotope.pkgd.min.js"></script>
         <script src="./assets/js/google-maps.js"></script>
         <script src="./assets/js/theme.js"></script>
         <script src="./assets/js/waypoins.min.js"></script>
